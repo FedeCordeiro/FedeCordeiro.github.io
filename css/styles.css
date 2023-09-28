@@ -57,6 +57,12 @@ section {
 
 /* Seccion Sobre Mi */
 
+#sobre-mi {
+    background-image: url('imagenes/fondo.png');
+    background-size: cover; /* Ajusta el tamaño de la imagen para que cubra todo el elemento */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
 /* Estilos para la imagen de perfil */
 .profile-image {
     max-width: 90%;
@@ -114,6 +120,7 @@ section {
     height: 200px; /* Altura fija para todas las imágenes de proyectos */
     margin-bottom: 20px;
     transition: transform 0.3s;
+    margin: 40px;
 }
 
 .project-image {
@@ -163,6 +170,10 @@ section {
 }
 
 /*Footer*/
+
+footer {
+    background-color: #00000060;
+}
 
 /* Estilos para los íconos de redes sociales en el footer */
 .social-icon {
