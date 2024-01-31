@@ -18,9 +18,5 @@ $(document).ready(function () {
         }
     });
 
-    $('.project-item').click(function () {
-        // Aquí debes agregar la lógica para redirigir a la página de detalle del proyecto.
-        // Puedes usar window.location.href = "URL_DEL_PROYECTO" para redirigir.
-    });
 });
 
